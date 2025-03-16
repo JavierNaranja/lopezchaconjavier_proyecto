@@ -101,40 +101,80 @@ body {
 
 .principal {
     width: calc(100% - 250px);
-    color: #fff;
+    color: #333;
     display: flex;
     justify-content: center;
 }
 
-.introducion h2 {
+.secion {
+    padding: 50px;
+    padding-top: 20px;
+    margin-top: 50px;
+    border-radius: 50px;
+    text-align: justify;
+    background-color: #fffa;
+}
+
+.secion h2 {
     font-size: 50px;
     letter-spacing: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    margin-top: 0;
+    text-shadow: -10px 0 10px #fff,-10px 0 10px #fff, -10px 0 10px #fff;
 }
 
-.introducion {
-    text-align: justify;
-}
-
-.introducion h3 {
+.secion h3 {
     font-size: 30px;
 }
 
-.introducion p {
+.secion p {
     line-height: 1.6;
 }
 
-.pastel-chocolate {
+.pastel-secion {
     display: flex;
     align-items: center;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px #fff;
+    margin-bottom: 50px;
+    gap: 30px;
 }
 
 .chocolate-texto {
     width: 400px;
 }
 
-.pastel-chocolate img {
-    max-width: 100%;
-    max-height: 100%;
+.pastel-secion img {
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 50px;
+}
+
+.pastel-secion button {
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    border: #333;
+    background-image: linear-gradient(to right, #000, #555);
+    margin-top: 20px;
+    transition:filter .2s ;
+}
+
+.pastel-secion button:hover {
+    filter: drop-shadow(0 0 10px #00f);
+    outline: 2px solid #fff;
+}
+
+.pastel-secion button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.secion-invertido {
+    flex-direction: row-reverse;
 }
