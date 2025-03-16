@@ -104,12 +104,14 @@ body {
     color: #333;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .secion {
     padding: 50px;
     padding-top: 20px;
     margin-top: 50px;
+    padding-bottom: 0;
     border-radius: 50px;
     text-align: justify;
     background-color: #fffa;
@@ -145,7 +147,7 @@ body {
     gap: 30px;
 }
 
-.chocolate-texto {
+.texto {
     width: 400px;
 }
 
@@ -177,4 +179,10 @@ body {
 
 .secion-invertido {
     flex-direction: row-reverse;
+}
+
+/* ------------- FOOTER --------------- */
+
+footer {
+
 }
