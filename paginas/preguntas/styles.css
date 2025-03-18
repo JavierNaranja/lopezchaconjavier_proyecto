@@ -116,6 +116,7 @@ body {
     border-radius: 50px;
     text-align: justify;
     background-color: #fffa;
+    width: 700px;
 }
 
 .secion h2 {
@@ -135,10 +136,7 @@ body {
     line-height: 1.6;
 }
 
-.pastel-secion {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.pregunta {
     border-top: 2px solid #333;
     border-bottom: 2px solid #333;
     border-radius: 20px;
@@ -147,7 +145,23 @@ body {
     box-shadow: 0 0 20px #fff;
     margin-bottom: 50px;
     gap: 30px;
+    width: fit-content;
+    display: flex;
 }
+
+.pregunta {
+    max-width: 400px;
+}
+
+.inverso {
+    text-align: right;
+}
+
+.lado-derecho {
+    display: flex;
+    justify-content: end;
+}
+
 
 .texto {
     width: 800px;
@@ -222,9 +236,6 @@ table {
     color: #fff;
 }
 
-.secion-invertido {
-    flex-direction: row-reverse;
-}
 
 /* ------------- FOOTER --------------- */
 

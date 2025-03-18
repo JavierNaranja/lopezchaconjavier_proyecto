@@ -138,7 +138,6 @@ body {
 .pastel-secion {
     display: flex;
     align-items: center;
-    justify-content: center;
     border-top: 2px solid #333;
     border-bottom: 2px solid #333;
     border-radius: 20px;
@@ -150,57 +149,14 @@ body {
 }
 
 .texto {
-    width: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 400px;
 }
 
-table {
-    padding: 20px;
-    border-top: 2px solid #333;
-    border-bottom: 2px solid #333;
-    padding-bottom: 40px;
-    border-radius: 20px;
-    position: relative;
-    z-index: 10;
+.pastel-secion img {
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 50px;
 }
-
-.texto th, .texto td {
-    padding: 12px 20px;
-    width: 100px;
-    text-align: center;
-}
-
-.texto td {
-    border-bottom: 1px solid #333;
-    border-radius: 2px;
-}
-
-.tabla {
-    display: flex;
-    position: relative;
-}
-
-.tabla img[alt="img1"] {
-    position: absolute;
-    z-index: 1;
-    width: 325px;
-    height: 400px;
-    right: 400px;
-    top: -70px;
-}
-
-.tabla img[alt="img2"] {
-    position: absolute;
-    z-index: 1;
-    width: 325px;
-    height: 400px;
-    right: -250px;
-    top: -70px;
-    transform: rotate(180deg);
-}
-
 
 .pastel-secion button {
     border: none;
@@ -224,21 +180,6 @@ table {
 
 .secion-invertido {
     flex-direction: row-reverse;
-}
-
-.tabla img[src="imganes/naranja.png"] {
-    width: 240px;
-    height: 350px;
-}
-
-.tabla img[src="imganes/naranja.png"]:first-child {
-    right: 420px;
-    top: -70px;
-}
-
-.tabla img[src="imganes/naranja.png"]:last-child {
-    right: -220px;
-    top: -70px;
 }
 
 /* ------------- FOOTER --------------- */
