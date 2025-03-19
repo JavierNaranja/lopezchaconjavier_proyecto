@@ -195,7 +195,7 @@ footer {
     padding-bottom: 20px;
 }
 
-form {
+.form-footer {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -257,7 +257,7 @@ input::placeholder, textarea::placeholder {
     justify-content: space-between;
 }
 
-form label {
+.form-footer label {
     display: flex;
     flex-direction: column;
     gap: 20px;
